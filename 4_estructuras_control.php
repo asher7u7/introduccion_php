@@ -132,7 +132,82 @@
                     break;
             }
 
+        //Ejemplos Profe
 
-    ?>
+        //if, if-else
+            //Ejemplo 1
+            $color = "rojo";
+            if($color = "rojo")
+            {
+                print("efectivamente es color rojo");
+            }
+            echo "<br>";
+            
+            //Ejemplo 2
+            $x = 10;
+            $y = 15;
+            if($x == $y)
+            {
+                print("X e Y son iguales");
+            }
+            elseif($x > $y)
+            {
+                print("X mayor que Y");
+            }
+            elseif($x < $y)
+            {
+                print("X es menor que Y)");
+            }
+
+        //While
+            //Ejemplo 1
+            $x = 10;
+            while(--$x)
+            {
+                echo "<big>";
+                echo "<b>";
+                print("Número: ". $x);
+                echo "<br>";
+                echo "<hr>";
+            }
+
+        //do-While
+
+        //for
+            //Ejemplo 1
+            for($x=5; $x<=10; $x++)
+            {
+                print("Número: ".$x."<br>");
+            }
+
+        //require
+        
+        //include
+            //Ejemplo 1
+            include("variable.php");
+            echo "<br>";
+            print("$x"."$z"."$y");
+        
+        //Switch
+            //Ejemplo 1
+            $color = "negro";
+            switch($color)
+            {
+                case "blanco":
+                    $sector = "claro";
+                    break;
+                case "naranja":
+                    $sector = "normal";
+                    break;
+                case "negro":
+                    $sector = "oscuro";
+                    break;
+            }
+
+            print ($setor);
+
+
+
+    ?>  
 </body>
 </html>
